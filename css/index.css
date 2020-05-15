@@ -1,0 +1,122 @@
+html, body {
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#menu {
+    width: 100vw;
+    margin: 0;
+}
+
+#buttonMenu1 {
+    position: absolute;
+    right: 0;
+}
+
+#buttonMenu2 {
+}
+
+#button-canvas {
+
+}
+
+
+/*JOISTICK*/
+
+.joistick-container {
+    position: relative;
+}
+
+.console-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.button-left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+.button-right {
+
+}
+
+/* global styles - changing bootstrap in purpose */
+label {
+    color: black !important;
+}
+
+.btn-secondary {
+    color: black !important;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+
+body.red {
+    background-color: red;
+}
+
+body.blue {
+    background-color: blue;
+}
+
+body.pink {
+    background-color: magenta;
+}
+
+body.green {
+    background-color: aqua;
+}
+
+body.yellow {
+    background-color: yellow;
+}
+
+body.green2 {
+    background-color: lime;
+}
+
+body.magenta {
+    background-image: linear-gradient(0deg, red, magenta);
+}
+
+/*body.red {
+    background-image: linear-gradient(0deg, red, magenta);
+}
+
+body.blue {
+    background-image: linear-gradient(0deg, #0017ff, #00e0ff);
+}
+
+body.pink {
+    background-image: linear-gradient(0deg, #ff00f8, #c230ff);
+}
+
+body.green {
+    background-image: linear-gradient(0deg, #00ac87, #00ffa4);
+}
+
+body.yellow {
+    background-image: linear-gradient(0deg, #ffec20, #ffa300);
+}
+
+body.orange {
+    background-image: linear-gradient(0deg, #ffbc06, #ff4800);
+}
+
+body.magenta {
+    background-image: linear-gradient(0deg, red, magenta);
+}*/
